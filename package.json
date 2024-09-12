@@ -21,9 +21,6 @@
   },
   "build": {
     "asar": true,
-    "files": [
-      "./**/*",
-    ],
     "appId": "com.cool.clock",
     "productName": "coolClock",
     "copyright": "Copyright © 2022 coolClock",
