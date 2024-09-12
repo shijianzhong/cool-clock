@@ -42,10 +42,10 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": false,
-      "installerIcon": "./Icon.icns",
-      "uninstallerIcon": "./Icon.icns",
-      "installerHeader": "./Icon.icns",
-      "installerHeaderIcon": "./Icon.icns",
+      "installerIcon": "./images/icon.icns",
+      "uninstallerIcon": "./images/icon.icns",
+      "installerHeader": "./images/icon.icns",
+      "installerHeaderIcon": "./images/icon.icns",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "coolClock"
