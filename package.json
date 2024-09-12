@@ -1,0 +1,52 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.0.2"
+  },
+  "build": {
+    "asar": true,
+    "files": [
+      "./dist/**/*",
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "appId": "com.XXXX.XXX",
+    "productName": "XXXXX",
+    "copyright": "Copyright © 2022 XXXXX",
+    "icon": "./images/icon.ico",
+    "win": {
+      "icon": "./images/icon.ico",
+      "artifactName": "digital_shield.${ext}",
+      "verifyUpdateCodeSignature": false,
+      "requestedExecutionLevel": "highestAvailable",
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "mac": {
+      "icon": "./images/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": false,
+      "installerIcon": "./Icon.icns",
+      "uninstallerIcon": "./Icon.icns",
+      "installerHeader": "./Icon.icns",
+      "installerHeaderIcon": "./Icon.icns",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "XXXXXXXXX"
+    }
+  }
+}
