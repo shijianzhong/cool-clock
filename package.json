@@ -1,7 +1,7 @@
 {
   "name": "my-electron-app",
   "version": "1.0.0",
-  "description": "hello",
+  "description": "coolClock",
   "main": "main.js",
   "scripts": {
     "dev":"electron .",
@@ -18,37 +18,5 @@
     "@electron-forge/publisher-github": "^7.4.0",
     "electron": "^32.0.2",
     "electron-builder": "^24.6.4"
-  },
-  "build": {
-    "asar": true,
-    "appId": "com.cool.clock",
-    "productName": "coolClock",
-    "copyright": "Copyright © 2022 coolClock",
-    "icon": "./images/icon.icon",
-    "win": {
-      "icon": "./images/icon.icon",
-      "artifactName": "digital_shield.${ext}",
-      "verifyUpdateCodeSignature": false,
-      "requestedExecutionLevel": "highestAvailable",
-      "target": [
-        "nsis",
-        "zip"
-      ]
-    },
-    "mac": {
-      "icon": "./images/icon.icns",
-      "category": "public.app-category.utilities"
-    },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": false,
-      "installerIcon": "./images/icon.icns",
-      "uninstallerIcon": "./images/icon.icns",
-      "installerHeader": "./images/icon.icns",
-      "installerHeaderIcon": "./images/icon.icns",
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "shortcutName": "coolClock"
-    }
   }
 }
