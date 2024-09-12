@@ -24,9 +24,9 @@
     "appId": "com.cool.clock",
     "productName": "coolClock",
     "copyright": "Copyright © 2022 coolClock",
-    "icon": "./images/icon.ico",
+    "icon": "./images/icon.icon",
     "win": {
-      "icon": "./images/icon.ico",
+      "icon": "./images/icon.icon",
       "artifactName": "digital_shield.${ext}",
       "verifyUpdateCodeSignature": false,
       "requestedExecutionLevel": "highestAvailable",
